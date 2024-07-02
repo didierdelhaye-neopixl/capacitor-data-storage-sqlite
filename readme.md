@@ -2,7 +2,11 @@
 <h3 align="center">DATA STORAGE SQLITE</h3>
 <p align="center"><strong><code>capacitor-data-storage-sqlite</code></strong></p>
 <br>
-<p align="center" style="font-size:50px;color:red"><strong>CAPACITOR 5</strong></p><br>
+<p align="center" style="font-size:50px;color:red"><strong>CAPACITOR 6</strong></p><br>
+<br>
+<p align="left">
+This a fork that uses Capacitor 6 and upgrades the other packages and configurations.
+</p>
 <br>
 <!-- Note from the Owner - Start -->
 <p align="center" style="font-size:50px;color:red"><strong>Note from the Owner</strong></p>
@@ -12,11 +16,11 @@
 <p align="left" style="font-size:47px">Start --></p>
 <br>
 <p align="left">
-I have been dedicated to developing and maintaining this plugin for many years since the inception of Ionic Capacitor. Now, at 73+ years old, and with my MacBook Pro becoming obsolete for running Capacitor 6 for iOS, I have made the decision to cease maintenance of the plugin. If anyone wishes to take ownership of this plugin, they are welcome to do so.  
+I have been dedicated to developing and maintaining this plugin for many years since the inception of Ionic Capacitor. Now, at 73+ years old, and with my MacBook Pro becoming obsolete for running Capacitor 6 for iOS, I have made the decision to cease maintenance of the plugin. If anyone wishes to take ownership of this plugin, they are welcome to do so.
 </p>
 <br>
 <p align="left">
-It has been a great honor to be part of this development journey alongside the developer community. I am grateful to see many of you following me on this path and incorporating the plugin into your applications. Your comments and suggestions have motivated me to continuously improve it.  
+It has been a great honor to be part of this development journey alongside the developer community. I am grateful to see many of you following me on this path and incorporating the plugin into your applications. Your comments and suggestions have motivated me to continuously improve it.
 </p>
 <br>
 <p align="left">
@@ -67,7 +71,7 @@ npx cap sync
 
 - On Android, no further steps are needed.
 
-- On Web, 
+- On Web,
 ```bash
 npm install --save localforage
 ```
@@ -167,7 +171,7 @@ No configuration required for this plugin
 
 ## Dependencies
 
-The IOS & Android code use SQLCipher allowing for database encryption. 
+The IOS & Android code use SQLCipher allowing for database encryption.
 The Android code is now based on `androidx.sqlite`. The database is not closed anymore after each transaction for performance improvement.
 You must manage the `close` of the database before opening a new database.
 The Web code use `localforage` package to store the datastore in the Browser.
@@ -183,10 +187,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/jepiqueau"><img src="https://avatars3.githubusercontent.com/u/16580653?v=4" width="100px;" alt=""/><br /><sub><b>Jean Pierre Quéau</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/mwpb"><img src="https://avatars.githubusercontent.com/u/12957941?v=4" width="100px;" alt=""/><br /><sub><b>Matthew Burke</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Documentation">📖</a></td>    
-    <td align="center"><a href="https://github.com/mwpb"><img src="https://avatars.githubusercontent.com/u/1745820?v=4" width="100px;" alt=""/><br /><sub><b>Kevin van Schaijk</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Code">💻</a></td>  
-    <td align="center"><a href="https://github.com/garbit"><img src="https://avatars.githubusercontent.com/u/555396?v=4" width="100px;" alt=""/><br /><sub><b>Andy Garbett</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Documentation">📖</a></td>    
-     
+    <td align="center"><a href="https://github.com/mwpb"><img src="https://avatars.githubusercontent.com/u/12957941?v=4" width="100px;" alt=""/><br /><sub><b>Matthew Burke</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mwpb"><img src="https://avatars.githubusercontent.com/u/1745820?v=4" width="100px;" alt=""/><br /><sub><b>Kevin van Schaijk</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/garbit"><img src="https://avatars.githubusercontent.com/u/555396?v=4" width="100px;" alt=""/><br /><sub><b>Andy Garbett</b></sub></a><br /><a href="https://github.com/capacitor-data-storage-sqlite/commits?author=jepiqueau" title="Documentation">📖</a></td>
+
   </tr>
 </table>
 
